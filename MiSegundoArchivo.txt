@@ -1,0 +1,74 @@
+Last login: Thu Feb 27 17:00:28 on ttys000
+MacBook-de-Mac:~ mac$ remote add origin https://github.com/ClaudiaMRocha/AdaTareasFrontend.git
+-bash: remote: command not found
+MacBook-de-Mac:~ mac$ git config -- global user.email "claudiarocha.photographer@gmail.com"
+fatal: not in a git directory
+MacBook-de-Mac:~ mac$ git config --global user.email "claudiarocha.photographer@gmail.com"
+MacBook-de-Mac:~ mac$ git config --global user.name "ClaudiaMRocha"
+MacBook-de-Mac:~ mac$ ls
+Applications
+Creative Cloud Files
+Creative Cloud Files (archived) (1)
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Vagrantfile
+Vagrantfile~
+VirtualBox VMs
+claudiarocha.photographer@gmail.com Creative Cloud Files
+MacBook-de-Mac:~ mac$ cd Desktop
+MacBook-de-Mac:Desktop mac$ cd AdaTestRepo
+MacBook-de-Mac:AdaTestRepo mac$ git status
+On branch master
+nothing to commit, working tree clean
+MacBook-de-Mac:AdaTestRepo mac$ git remote add origin https://github.com/ClaudiaMRocha/test.git
+MacBook-de-Mac:AdaTestRepo mac$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 468 bytes | 468.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/ClaudiaMRocha/test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+MacBook-de-Mac:AdaTestRepo mac$ git remote. -v
+git: 'remote.' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+MacBook-de-Mac:AdaTestRepo mac$ git remote -v
+origin	https://github.com/ClaudiaMRocha/test.git (fetch)
+origin	https://github.com/ClaudiaMRocha/test.git (push)
+MacBook-de-Mac:AdaTestRepo mac$ nano MisSegundoarchivo
+MacBook-de-Mac:AdaTestRepo mac$ nano MiSegundoArchivo
+
+  GNU nano 2.0.6            File: MiSegundoArchivo                    Modified  
+
+Soy un Segundo Archivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             [ line 1/2 (50%), col 23/23 (100%), char 22/23 (95%) ]
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
